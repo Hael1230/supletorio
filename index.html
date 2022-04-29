@@ -31,7 +31,7 @@
       				<a href="#">Deportes</a>
       				<a href="#">Juegos</a>
       			</div>
-      		</div>
+      		    </div>
       		<ul>
       			<li><a href="#" class="link">Inicio</a></li>
       			<li><a href="#" class="link">Salón</a></li>
@@ -55,10 +55,74 @@
       		</ul>
       	</nav>
       </header>
-			</nav>
-		</header>
+      <div class="Noticias">
+      	<table cellpadding="5" class="not">
+
+  <tr>
+    <td>
+    	<script>
+date = new Date().toLocaleDateString();
+document.write(date);
+</script>
+</td>
+  </tr>
+  <tr>
+    <td><h3>Deportes</h3></td>
+  </tr>
+<tr>
+    <td>Celda 3</td>
+  </tr>
+  <tr>
+    <td>Celda 4</td>
+  </tr>
+  <tr>
+    <td>Celda 5</td>
+  </tr>
+  <tr></tr>
+  <tr></tr>
+  <tr>
+  	<td><h3>Tecnología</h3></td>
+  </tr>
+  <tr>
+    <td>Celda 2</td>
+  </tr>
+  <tr>
+    <td>Celda 3</td>
+  </tr>
+  <tr>
+    <td>Celda 4</td>
+  </tr>
+</table>
+      </div>
+      <div class="principal">
+      	<canvas id="cara" width="1100px" height="200px" onclick="dibujarLinea()"></canvas>
+      </div>
+      <div>
+      	<article class="listar-noticias">
+                <div class="l-primero" id="l-noticias"></div>
+                <div id="l-descripcion"></div>
+                <button id="btn-mostrar" type="button">Todas las Noticias</button>
+            </article>
+      </div>
 	</div>
+	<footer class="footer">
+            <div class="f-enlaces">
+                <img src="img/pie.png" alt="" height="35px" />
+                <a href="#">Pagina Colegio</a>
+                <img src="img/pie.png" alt="" height="35px" />
+                <a href="#">Correo Gmail</a>
+                <img src="img/pie.png" alt="" height="35px" />
+                <a href="#">Pagina Santillana</a>
+            </div>
+            <div class="f-informacion">
+                Email <a href="">periodico@colegioufps.edu.co</a><br />
+                Twitter <a href="">@Periodicoufps</a><br />
+                Av 20 N 12-34 Cúcuta
+            </div>
+        </footer>
 </div>
 <script type="text/javascript" src="js/main.js"></script>
+<script type="text/javascript" src="js/canvas.js"></script>
+<script type="text/javascript" src="js/datos.js"></script>
 </body>
 </html>

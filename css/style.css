@@ -120,6 +120,100 @@ nav .mobile .links a:hover {
   color: white;
   background-color: black;
 }
+div .Noticias{
+  float: right;
+  text-align: center;
+  margin-right: 10px;
+}
+table{
+  border-collapse: collapse;
+  border-style: dotted;
+  border: black 1px solid;
+}
+.principal{
+  margin-top: 50px;
+  text-align: center;
+}
+#cara{
+  border-style: solid;
+  border-color: gray;
+}
+.footer {
+        background-color: #c2c2c2;
+        display: flex;
+        width: 100%;
+        align-items: center;
+        color: rgb(0, 0, 0);
+        padding: 2%;
+ }
+
+ .f-enlaces{
+     width: 70%;
+     display: flex;
+     align-items: center;
+     padding: 1%;
+ }
+
+ .f-enlaces a {
+    padding: 2%;
+    margin-right: 4%;
+    font-size:1.3vw;
+    text-decoration: none;
+    color : #000000;
+}
+ .f-informacion{
+    width: 30%;
+}
+.f-informacion a{
+    width: 30%;
+    font-size:1.3vw;
+    text-decoration: none;
+}
+.cierre{
+    width: 100%;
+    background-color: #0a003d;
+    color: #fff;
+    text-align: center;
+    padding: 1%;
+}
+.listar-noticias {
+    width: 80vw;
+}
+
+.listar-noticias img {
+    width: 100%;
+    border: solid 5px #000000
+}
+.l-primero h3{
+  color:#1c058d;
+  padding: 1%;
+}
+.l-primero h3 a{
+text-decoration: none; 
+  }
+.l-primero p{
+    margin-left: 1%;
+    margin-bottom: 1% ;
+    margin-top: 1% ;
+    border: solid 1px #bebdbd;
+  }
+
+.listar-noticias button {
+    width: 100%;
+    height: 40px;
+    background-color: darkred;
+    color: white;
+    border-radius: 10px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.listar-noticias button:hover {
+    background-color: greenyellow;
+    color: darkred;
+
+}
 @media screen and (max-width: 1132px){
   nav .link-hide{
     display: none;
