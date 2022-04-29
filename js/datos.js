@@ -26,3 +26,26 @@ fetch(listaNoticias)
                 document.getElementById('l-noticias').innerHTML = body
             })
  }
+ var noticiasDeporte = "https://carlosreneas.github.io/endpoints/categoria_deporte.json";
+fetch(noticiasDeporte)
+    .then(response => response.json())
+    .then(data => {
+        console.log(data);
+        let body = ""
+        for (let i = 0; i < 3; i++) {
+            body +=`<p> <a href="#"> ${data[i].titulo} </a> </p>  `
+        }
+        document.getElementById('notdeportes').innerHTML = body
+    })
+
+    var noticiasTecnologia = "https://carlosreneas.github.io/endpoints/categoria_tecnologia.json";
+fetch(noticiasTecnologia)
+    .then(response => response.json())
+    .then(data => {
+        console.log(data);
+        let body = ""
+        for (let i = 0; i < 3; i++) {
+            body +=`<p> <a href="#"> ${data[i].titulo} </a> </p>  `
+        }
+        document.getElementById('nottecnologia').innerHTML = body
+    })

@@ -129,10 +129,12 @@ table{
   border-collapse: collapse;
   border-style: dotted;
   border: black 1px solid;
+  font-size: 10px;
 }
 .principal{
   margin-top: 50px;
   text-align: center;
+  
 }
 #cara{
   border-style: solid;
@@ -220,6 +222,9 @@ text-decoration: none;
   }
   nav .more{
     display: flex;
+  }
+  .principal{
+    width: 500px;
   }
 }
 @media screen and (max-width: 640px){
